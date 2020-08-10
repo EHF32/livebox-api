@@ -1,0 +1,26 @@
+{
+  "name": "liveboxapi",
+  "version": "1.0.0",
+  "description": "livebox 1.2 api",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js",
+    "watch": "npx nodejs-hot-reload entry=./src/index.js outDir=./build"
+  },
+  "author": {
+    "name": "Ángel Herrador",
+    "email": "angel6v3@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {
+    "nodejs-hot-reload": "^0.1.2"
+  }
+}
